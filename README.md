@@ -5,8 +5,8 @@
 那这一版就用django吧
 
 # 思路
-  - [x] [requests](https://cuiqingcai.com/)：崔老师原版博客
-  - [x] [requests]https://github.com/stormsha)：参考
+  - [x] [崔老师原版博客](https://cuiqingcai.com/)
+  - [x] [参考](https://github.com/stormsha)
 
 
 **🙋说明:**
