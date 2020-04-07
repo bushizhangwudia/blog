@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'dasn213nifaocsanobsfocbab'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -87,10 +87,10 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'mysql123',
+        'HOST': '',
+        'PORT': '',
+        'USER': '',
+        'PASSWORD': '',
         'NAME': 'blog',
         # 避免映射数据库时出现警告
         'OPTIONS': {
